@@ -30,7 +30,7 @@ class VirtualCameraDy : IHook {
     override fun getSupportedPackages() = listOf(
         "com.android.camera",
         "com.ss.android.ugc.aweme",
-        "tv.danmaku.bili",
+        "com.lianjia.alliance",
         "com.tencent.mm",
         )
 
