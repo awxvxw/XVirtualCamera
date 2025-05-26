@@ -34,7 +34,7 @@ import tv.danmaku.ijk.media.player.IjkMediaPlayer
 class VirtualCameraWs : IHook {
     override fun getName(): String = "WhatsApp可用的虚拟摄像头模块"
     override fun getSupportedPackages() = listOf(
-        "com.whatsapp",
+        "com.lianjia.alliance",
         )
 
     override fun init(cl: ClassLoader?) {
